@@ -3,6 +3,8 @@ import './home.scss';
 import AcUnitIcon from '@material-ui/icons/AcUnit';
 import Navbar from '../components/nabar/Navbar';
 import Featured from '../components/featured/Featured.jsx';
+import List from '../components/list/List';
+
 
 
 const Home = () => {
@@ -10,7 +12,12 @@ const Home = () => {
         <div className="home">
             <Navbar/>
             
-            <Featured type="movie"/>
+            <Featured/>
+
+            <List/>
+            <List/>
+            <List/>
+            <List/>
         </div>
     )
 }
