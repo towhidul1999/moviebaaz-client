@@ -1,11 +1,12 @@
-
 import './app.scss';
-import Home from './home/Home.jsx'
+import Home from './pages/home/Home.jsx';
+import Watch from './pages/watch/Watch';
 
 function App() {
   return (
     <div className="App">
-        <Home/>
+        <Watch/>
+
     </div>
   );
 }
